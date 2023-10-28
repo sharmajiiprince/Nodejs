@@ -8,6 +8,8 @@ const mystoreschema=new mongoose.Schema({
     city:String,
     otp:Number,
     password:String,
+    token:String,
+    imagePath:String,
 });
 //module.exports=mongoose.model('mystores',mystoreschema);
 module.exports=mongoose.model('users',mystoreschema);
